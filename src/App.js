@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Provider } from 'react-redux';
-import { createStore, applyMiddleware } from 'redux';
-import { composeWithDevTools } from 'remote-redux-devtools';
+import { createStore } from 'redux';
 import reducers from './reducers';
 import AppWithNavigationState from './navigators/AppNavigator';
 
